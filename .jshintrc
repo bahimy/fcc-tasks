@@ -1,0 +1,6 @@
+{
+    "browser": true,
+    "devel": true,
+    "asi": true,
+    "strict": "global"
+}
