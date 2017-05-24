@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'PTsans';
+  src: url('./fonts/PTS55F.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTsans';
+  src: url('./fonts/PTS75F.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fontawesome';
+  src: url('./fonts/fontawesome-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+i {
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: 'PTsans', Arial;
+}
+main {
+  min-width: 400px;
+}
+.c-card {
+  width: 400px;
+  height: 267px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+.c-card__quote-text,
+.c-card__quote-origin {
+  margin: 0px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.c-card__quote-text {
+  text-align: justify;
+  height: 162px;
+  padding-top: 29px;
+  background: url("./images/left_quotes.png") 10px 25px no-repeat;
+  background-color: rgb(141, 207, 182);
+  overflow: auto;
+  font-size: 2em;
+  border-radius: 3px 3px 0 0;
+}
+.l-card__qoute-origin {
+  height: 44px;
+  background-color: rgb(205, 141, 165);
+  text-align: right;
+}
+.c-card__quote-origin {
+  font-size: 1.5em;
+  font-style: normal;
+  line-height: 3;
+}
+.c-card__quote-origin:before {
+  content: "\2013  ";
+  white-space: pre;
+}
+.l-card__social-buttons {
+  float: left;
+  margin-left: 45px;
+}
+.l-card__quote-control {
+  text-align: right;
+}
+.c-card__quote-update {
+  border-width: 0;
+  background-color: transparent;
+  font-family: 'PTSans';
+  font-size: 5em;
+  line-height: 1;
+}
+.c-card__button-caption {
+  font-size: 0.3em;
+  color: rgb(141, 207, 182);
+  margin-bottom: 10px;
+  vertical-align: 60%;
+}
+.fa-social {
+  text-decoration: none;
+  color: black;
+  font-style: normal;
+  font-family: "Fontawesome";
+  font-size: 3em;
+  line-height: 2;
+  margin-right: 0.5em;
+  color: rgb(141, 207, 182);
+}
